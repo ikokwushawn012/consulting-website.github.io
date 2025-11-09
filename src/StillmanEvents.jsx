@@ -11,8 +11,8 @@ function StillmanEvents(){
   transition={{ duration: 0.7 }}
   viewport={{once: true}}
 >
-<h1 className='font-bold text-[3.6rem] mb-8 text-[#003366]'>Stillman Events</h1>
-<p className='text-[1.2rem] text-[#003366]'>Discover what Stillman has to offer with our upcoming events—a series of interactive experiences created to bring our community together. Whether you’re looking to grow your career, build connections, or just get inspired, these events have something for everyone. From leadership talks and networking nights to student showcases and alumni panels, each one is designed to help you learn, connect, and take the next step toward your goals. Join us and make the most of every opportunity—one Stillman event at a time.</p>
+<h1 className='font-bold text-[3.6rem] mb-8 text-[#003366]'>Events</h1>
+<p className='text-[1.2rem] text-[#003366]'>Discover what we has to offer with our upcoming events—a series of interactive experiences created to bring our community together. Whether you’re looking to grow your career, build connections, or just get inspired, these events have something for everyone. From leadership talks and networking nights to student showcases and alumni panels, each one is designed to help you learn, connect, and take the next step toward your goals. Join us and make the most of every opportunity—one event at a time.</p>
 </motion.div>
         </div>
         <div className='bg-[#99ccee] flex w-18/19 px-20 py-15 pb-10 mx-auto gap-10 mb-20'>

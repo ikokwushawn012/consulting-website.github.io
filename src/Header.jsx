@@ -41,13 +41,13 @@ return(
 <div className='relative group'>
 <p className='cursor-default hover:text-black transition-all duration-250 font-bold group-hover:opacity-50 text-[1.05rem]'>RESOURCES</p>
 <div className='hidden group-hover:block absolute bg-neutral-200/50 h-auto w-56 text-right p-2 mt-1 text-[1.05rem] z-4'>
-<p><b className='font-bold relative b-10 hover:text-neutral-400 transition-colors duration-200 cursor-pointer'><NavLink to="/OurServices">
+<p><b className='font-bold relative b-10 hover:text-neutral-400 transition-colors duration-200 cursor-pointer block text-left'><NavLink to="/OurServices">
           Our Services
         </NavLink></b></p>
-<p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer'><NavLink to="/StillmanEvents">
-          Stillman Events
+<p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer text-left'><NavLink to="/StillmanEvents">
+        Events
         </NavLink></b></p>
-        <p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer'><NavLink to="/PastEngagements">
+        <p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer text-left'><NavLink to="/PastEngagements">
           Past Engagements
         </NavLink></b></p>
 </div>
