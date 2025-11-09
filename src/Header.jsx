@@ -44,7 +44,7 @@ return(
 <p><b className='font-bold relative b-10 hover:text-neutral-400 transition-colors duration-200 cursor-pointer block text-left'><NavLink to="/OurServices">
           Our Services
         </NavLink></b></p>
-<p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer text-left'><NavLink to="/StillmanEvents">
+<p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer text-left'><NavLink to="/Events">
         Events
         </NavLink></b></p>
         <p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer text-left'><NavLink to="/PastEngagements">

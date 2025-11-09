@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function StillmanEvents(){
+function Events(){
     return(
     <>
     <div className='mx-auto w-1/2 -translate-x-15 my-20'>
@@ -57,4 +57,4 @@ function StillmanEvents(){
     )
 }
 
-export default StillmanEvents
+export default Events

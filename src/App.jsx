@@ -8,7 +8,7 @@ import About from './About.jsx';
 import OurTeam from './OurTeam.jsx';
 import CAP from './CAP.jsx';
 import SAP from './SAP.jsx';
-import StillmanEvents from './StillmanEvents.jsx';
+import Events from './Events.jsx';
 import PastEngagements from './PastEngagements.jsx';
 import OurServices from './OurServices.jsx';
 import Alumni from './Alumni.jsx';
@@ -28,7 +28,7 @@ function App() {
           <Route path="/OurTeam" element={<PageWrapper><OurTeam /></PageWrapper>} />
           <Route path="/CAP" element={<PageWrapper><CAP /></PageWrapper>} />
           <Route path="/SAP" element={<PageWrapper><SAP /></PageWrapper>} />
-          <Route path="/StillmanEvents" element={<PageWrapper><StillmanEvents /></PageWrapper>} />
+          <Route path="/Events" element={<PageWrapper><Events /></PageWrapper>} />
           <Route path="/PastEngagements" element={<PageWrapper><PastEngagements /></PageWrapper>} />
           <Route path="/OurServices" element={<PageWrapper><OurServices /></PageWrapper>} />
           <Route path="/Alumni" element={<PageWrapper><Alumni /></PageWrapper>} />
