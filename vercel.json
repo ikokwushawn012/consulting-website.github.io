@@ -1,9 +1,10 @@
 {
   "rewrites": [
-    {
-      "source": "/((?!sitemap\\.xml|robots\\.txt).*)",
-      "destination": "/"
-    }
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/icon-500.png", "destination": "/icon-500.png" },
+    { "source": "/favicon.ico", "destination": "/favicon.ico" },
+    { "source": "/((?!sitemap\\.xml|robots\\.txt|icon-500\\.png|favicon\\.ico).*)", "destination": "/" }
   ],
   "headers": [
     {
