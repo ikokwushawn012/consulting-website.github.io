@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect} from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+
 function CAP(){
     const images = [
     "https://picsum.photos/id/1015/600/400",
@@ -47,39 +48,12 @@ function CAP(){
         
 
      <div className="absolute inset-0 w-full mx-auto">
-    
-      <div className="relative ">
-        {images.map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt={`Slide ${index}`}
-            className={`absolute inset-0 w-full h-[1000px] object-cover shadow-lg transition-opacity duration-700 ${
-              index === currentIndex ? "opacity-100" : "opacity-0"
-            }`}
-          />
-        ))}
-      </div>
-
+    {/*<img src={Collage} className='w-full'></img>*/}
+    </div>
+    </div>
   
-      <button
-        onClick={prevSlide}
-        className="absolute top-1/2 left-4 -translate-y-1/2 bg-black/0 text-white p-3 rounded-full"
-      >
-        <ChevronLeft className="hover:text-[#003366] cursor-pointer transition-colors duration-200" size={80} strokeWidth={1} />
-      </button>
-
-
-      <button
-        onClick={nextSlide}
-        className="absolute top-1/2 right-4 -translate-y-1/2 bg-black/0 text-white p-3 rounded-full"
-      >
-        <ChevronRight className="hover:text-[#003366] cursor-pointer transition-colors duration-200" size={80} strokeWidth={1}/>
-      </button>
-    </div>
-    </div>
     </>
     );
-}
+    };
 
 export default CAP;
