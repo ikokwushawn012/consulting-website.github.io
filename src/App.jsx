@@ -1,3 +1,4 @@
+import { HelmetProvider } from 'react-helmet-async';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from "framer-motion";
 import Header from './Header.jsx';
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+    <HelmetProvider>
       <Header />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
@@ -35,6 +37,7 @@ function App() {
         </Routes>
       </AnimatePresence>
       <Footer />
+      </HelmetProvider>
     </>
   );
 }

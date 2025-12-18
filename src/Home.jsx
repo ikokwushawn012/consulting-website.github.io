@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet-async';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import CountUp from 'react-countup';
@@ -41,6 +42,11 @@ function Home(){
 
     
     return(<>
+    <Helmet>
+        <title>CYC at SHU</title>
+
+        <meta name="description" content="Consult Your Community (CYC) at Seton Hall University is a student-run organization that works with local small businesses and nonprofits to create meaningful impact through hands-on consulting projects and real-world experience." />
+      </Helmet>
     <section className='font-'>
     <img className='w-full h-auto object-contain' src='https://www.shu.edu/images/opengraph-twitter-1200x600.jpg'></img>
     <p className='text-center text-[1.5rem] font-bold py-17 text-[#003366]' >Ready to get involved with CYC?<br/>Click <NavLink className='underline hover:text-[#D17359] transition-all duration-250' to='/SAP'>here</NavLink> to join our community!</p>
