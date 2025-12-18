@@ -48,7 +48,7 @@ return(
         Events
         </NavLink></b></p>
         <p><b className='font-bold relative py-1 block hover:text-neutral-400 transition-colors duration-200 cursor-pointer text-left'><NavLink to="/PastEngagements">
-          Past Engagements
+          Current Engagements
         </NavLink></b></p>
 </div>
 </div>
