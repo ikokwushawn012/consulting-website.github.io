@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect} from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import banner from './assets/banner.png'
 
 
 function CAP(){
@@ -36,21 +37,22 @@ function CAP(){
     
     return(
     <>
-    <div className='relative h-[1000px]'>
-
-        <div className='absolute inset-0 group mx-auto w-[600px] h-[600px] z-50 rounded-full cursor-pointer translate-y-50'>
-        <h1 className='text-[#003366] absolute inset-0 font-bold text-[2.5rem] z-40  text-center group-hover:text-white pointer-events-none translate-y-30 transition-colors duration-200'>Become a Client</h1>
-        <p className='absolute inset-0 z-40  text-center text-[#003366] group-hover:text-white pointer-events-none translate-y-50 transition-colors duration-200'>Interested in partnering with us? Each semester, Consult Your<br/>Community at Seton Hall collaborates with local small businesses<br/>and nonprofits to provide valuable consulting support! If your<br/>organization would like to benefit from our pro-bono services,<br/>please complete a Client Interest Form. You can also reach us at<br/>setonhall@consultyourcommunity.org
-.<br/><br/>Upon request, we’re happy to share a detailed overview of our<br/>national organization, the services we offer, and examples of past<br/>projects.<br/><br/><br/><br/>Click Here for Client Interest Form</p>
-        <div className='absolute inset-0 bg-white w-[600px] h-[600px] opacity-50 mx-auto rounded-full text-center z-30 group-hover:bg-[#003366] group-hover:opacity-100 transition-colors duration-300'>
-        </div>
-        </div>
-        
-
-     <div className="absolute inset-0 w-full mx-auto">
-    {/*<img src={Collage} className='w-full'></img>*/}
+    <img src={banner} className='w-full'></img>
+    <div className='flex text-[#003366]'>
+    <div className='mx-auto w-1/2 my-20 border-r-1 p-9'>
+    <h1 className='font-bold text-[1.5rem] text-'>CYC Senior BA Application</h1>
+    <p className='my-10'>Welcome back to another semester with CYC. Interested in becoming more involved? <a className='text-gray-400 cursor-pointer'>Apply here!</a></p>
+    <p className='my-10'>Sincerely,</p>
+    <p className='my-10'>CYC at SHU</p>
+    </div>
+    <div className='mx-auto w-1/2 my-20 border-l-1 p-9'>
+    <h1 className='font-bold text-[1.5rem] text-'>CYC Business Analyst Application</h1>
+    <p className='my-10'>Thank you so much for your interest in CYC at Seton Hall University.  Applications are now open! <a className='text-gray-400 cursor-pointer'>Apply here!</a></p>
+    <p className='my-10'>Sincerely,</p>
+    <p className='my-10'>CYC at SHU</p>
     </div>
     </div>
+    
   
     </>
     );

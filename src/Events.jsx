@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import party from './assets/Finals Party.png'
 
 function Events(){
     return(
@@ -29,7 +30,7 @@ function Events(){
   <div className="group relative w-[300px] h-[350px]">
   <div className="absolute inset-0 w-full h-full bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 z-10 pointer-events-none"></div>
   <p className='text-white text-center p-5 text-[1.1rem] z-20 opacity-0 group-hover:opacity-100 absolute inset-0 pointer-events-none'>CYC ends the semester<br/> with games,<br/> laughter, and Superlatives,<br/> allowing<br/> members to relax,<br/> connect,<br/> and celebrate.</p>
-  <img className='w-[350px] h-[350px]' src='https://static.wixstatic.com/media/d7af91_36751cd0c46e4ef19191e26a3deab74d~mv2.jpg/v1/crop/x_719,y_0,w_2561,h_3000/fill/w_572,h_670,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20250407_225405.jpg'></img>
+  <img className='w-[350px] h-[350px]' src={party}></img>
 </div>
 <figcaption className='bg-white font-bold indent-5  py-4 text-[1.1rem] relative bottom-0 left-0 text-[#003366] z-40'>Finals Party<br/><span className='ml-5'>December 1st, Jubilee 141</span></figcaption>
 </figure>

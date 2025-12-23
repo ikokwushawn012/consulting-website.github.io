@@ -28,15 +28,7 @@ return(
 
 </div>
 <div className='relative group'>
-<p className=' cursor-default hover:text-black transition-all duration-250 font-bold group-hover:opacity-50 text-[1.05rem]'>APPLY</p>
-<div className='hidden group-hover:block absolute bg-neutral-200/50 h-auto w-50 text-right p-2 mt-1 -translate-x-35 text-[1.05rem] z-4'>
-<p><b className='font-bold relative b-10 hover:text-neutral-400 transition-colors duration-200 cursor-pointer'><NavLink to="/CAP">
-          Client Application
-        </NavLink></b></p>
-<p><b className='font-bold relative b-10 hover:text-neutral-400 transition-colors duration-200 cursor-pointer'><NavLink to="/SAP">
-          Student Application
-        </NavLink></b></p>
-</div>
+<p className=' cursor-default hover:text-black transition-all duration-250 font-bold group-hover:opacity-50 text-[1.05rem]'><NavLink to="/CAP">APPLY</NavLink></p>
 </div>
 <div className='relative group'>
 <p className='cursor-default hover:text-black transition-all duration-250 font-bold group-hover:opacity-50 text-[1.05rem]'>RESOURCES</p>
