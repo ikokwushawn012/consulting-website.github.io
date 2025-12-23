@@ -17,7 +17,7 @@ function Footer(){
         <div className='bg-neutral-500 w-full h-37 text-center p-5'>
             <p className='text-white pb-5 font-normal text-[1.1rem] font-'>Connect with us!</p>
             <p className='text-white pb-5 font-thin text-[1rem] cursor-pointer'><a href='mailto:setonhall@consultyourcommunity.org'>setonhall@consultyourcommunity.org</a></p>
-            <p className='text-white pb-5 font-thin opacity-70 text-[1rem]'>&copy;2025 Designed By Shawn Ikokwu</p>
+            <p className='text-white pb-5 font-thin opacity-70 text-[1rem]'>&copy;2025 designed by Shawn Ikokwu</p>
         </div>
         {/*
         <div className='w-full h-[450px] bg-[#00274e]'>
