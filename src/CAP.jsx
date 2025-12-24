@@ -41,13 +41,13 @@ function CAP(){
     <div className='flex text-[#003366]'>
     <div className='mx-auto w-1/2 my-20 border-r-1 p-9'>
     <h1 className='font-bold text-[1.5rem] text-'>CYC Senior BA Application</h1>
-    <p className='my-10'>Welcome back to another semester with CYC. Interested in becoming more involved? <a className='text-gray-400 cursor-pointer'>Apply here!</a></p>
+    <p className='my-10'>Welcome back to another semester with CYC. Interested in becoming more involved? <a href='https://forms.office.com/pages/responsepage.aspx?id=InzwUbdT30S5fKEyYdcQdWnPtA8mwR9Al7Ia4_D-tBlUQTE3REpTMkVPVElJMkJKSkZaTjE4RTBCNi4u&route=shorturl' className='text-gray-400 cursor-pointer'>Apply here!</a></p>
     <p className='my-10'>Sincerely,</p>
     <p className='my-10'>CYC at SHU</p>
     </div>
     <div className='mx-auto w-1/2 my-20 border-l-1 p-9'>
     <h1 className='font-bold text-[1.5rem] text-'>CYC Business Analyst Application</h1>
-    <p className='my-10'>Thank you so much for your interest in CYC at Seton Hall University.  Applications are now open! <a className='text-gray-400 cursor-pointer'>Apply here!</a></p>
+    <p className='my-10'>Thank you so much for your interest in CYC at Seton Hall University.  Applications are now open! <a href='https://forms.office.com/pages/responsepage.aspx?id=InzwUbdT30S5fKEyYdcQdWnPtA8mwR9Al7Ia4_D-tBlUOVlEOUlJTTBJWkRGVDJCVktTTjVVNFU0Ny4u&route=shorturl' className='text-gray-400 cursor-pointer'>Apply here!</a></p>
     <p className='my-10'>Sincerely,</p>
     <p className='my-10'>CYC at SHU</p>
     </div>

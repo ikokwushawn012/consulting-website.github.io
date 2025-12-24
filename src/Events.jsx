@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import party from './assets/Finals Party.png'
+import event from './assets/CYC Weekly event.jpg'
+import presentation from './assets/Finals Presentation.jpg'
+import insight from './assets/Insights from the.jpg'
 
 function Events(){
     return(
@@ -22,7 +25,7 @@ function Events(){
   <div className="group relative w-[300px] h-[350px]">
   <div className="absolute inset-0 w-full h-full bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 z-10 pointer-events-none"></div>
   <p className='text-white text-center p-5 text-[1.1rem] z-20 opacity-0 group-hover:opacity-100 absolute inset-0 pointer-events-none'>CYC analysts present<br/> semester-long projects,<br/> sharing<br/> innovative client solutions,<br/> receiving feedback,<br/> and<br/> celebrating team growth.</p>
-  <img className='w-[350px] h-[350px]' src='https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/588472298_18248936080295404_1930265369347992754_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzc4MjY2Nzg1ODY0ODg2NTQ2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=fiRnLhsAe2MQ7kNvwETDFsR&_nc_oc=AdmPv-MX2iQFvg0k-8M206i8epqPvE_mxysGAtkRlZzswhKdah3eg2tcQNp2rPLsD_MJ0fKn-t5KBD1w5PxBG5WQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=UVyLNFCtBdPefNIrI_aguw&oh=00_AfmTSzbgPlWJTHHBN9p4lJ1bF87msXweNRgH2QQ3FIdoqA&oe=694A18C4'></img>
+  <img className='w-[350px] h-[350px]' src={presentation}></img>
 </div>
 <figcaption className='bg-white font-bold indent-5  py-4 text-[1.1rem] relative bottom-0 left-0 text-[#003366] z-40'>Finals Presentations<br/><span className='ml-5'>December 8th, Faculty Library 6F</span></figcaption>
 </figure>
@@ -38,7 +41,7 @@ function Events(){
   <div className="group relative w-[300px] h-[350px]">
   <div className="absolute inset-0 w-full h-full bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 z-10 pointer-events-none"></div>
   <p className='text-white text-center p-5 text-[1.1rem] z-20 opacity-0 group-hover:opacity-100 absolute inset-0 pointer-events-none'>Members learn from<br/> a<br/> Seton Hall alumna at BNY<br/> about<br/> client relationships, career advice, and<br/> industry insights.</p>
-  <img className='w-[350px] h-[350px]' src='https://scontent-atl3-1.cdninstagram.com/v/t51.82787-15/581682487_18246879193295404_5303943083162161610_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzc2Njk2NTg4MzA0NzM1ODE5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=m_-w9AQRdwEQ7kNvwGC-pRA&_nc_oc=AdmcuXi77FaU2g4M6I1ImLkPmRbF6u6_TcFJtIf9d8KU3ayJaFJW3U7HTbvhlh7neES46FfFKLvGiEffZ5-iIDq0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_gid=9PQrqykelta5dEWJnl1ZNQ&oh=00_Afm3ipszZeeuEdev8vCzD_tzaeGF3_nIai5AYfgi29S96g&oe=694A1511'></img>
+  <img className='w-[350px] h-[350px]' src={insight}></img>
 </div>
 <figcaption className='bg-white font-bold indent-5  py-4 text-[1.1rem] relative bottom-0 left-0 text-[#003366] z-40'>Insights from the Bank of New York<br/><span className='ml-5'>November 17th, Schwartz 112</span></figcaption>
 </figure>
@@ -46,7 +49,7 @@ function Events(){
   <div className="group relative w-[300px] h-[350px]">
   <div className="absolute inset-0 w-full h-full bg-black opacity-0 group-hover:opacity-70 transition-opacity duration-300 z-10 pointer-events-none"></div>
   <p className='text-white text-center p-5 text-[1.1rem] z-20 opacity-0 group-hover:opacity-100 absolute inset-0 pointer-events-none'>CYC hosts a workshop<br/> with<br/> Amy Korner (KPMG)<br/> on<br/> building personal brands, confidence, and professional identity.</p>
-  <img className='w-[350px] h-[350px]' src='https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/572109004_18245081431295404_1527182135694253374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzc1NzQyNzc2MzgwMTA0Mjg5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=pyYDgiR0LesQ7kNvwGgXVkB&_nc_oc=AdmzG4GHcVbMLR-JMSQ0_KhrXE70iRNgWVb9ssVVDORB1ZQpSJz3eD0uM0LVMuBZJaR-3QD4qssgfA2ZoussRPCj&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=JlaaGMRBeVEQF1aYKuMQWQ&oh=00_AfmaGptdhwLKdEzXGbF7jykdacyfQEOhormTXpteJEzkmA&oe=694A0176'></img>
+  <img className='w-[350px] h-[350px]' src={event}></img>
 </div>
 <figcaption className='bg-white font-bold indent-5  py-4 text-[1.1rem] relative bottom-0 left-0 text-[#003366] z-40'>KPMG: Create Your Personal Brand<br/><span className='ml-5'>November 3rd, Jubilee 141</span></figcaption>
 </figure>
